@@ -45,9 +45,11 @@ Access Policies
  Only the Load Balancer machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
  .Port 80 (TCP over HTTP)
+ 
 Machines within the network can only be accessed by Ansible Container via the JumpBox using Port 22.
 
  .Jump Box IP 10.1.0.4
+ 
 A summary of the access policies in place can be found in the table below.
 
 |Name	|Publicly Accessible	|Allowed IP Addresses|
